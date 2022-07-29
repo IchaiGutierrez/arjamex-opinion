@@ -18,13 +18,15 @@ import {MatSelect, MatSelectModule} from '@angular/material/select';
 import { LoginComponent } from './login/login.component';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 import { TopBarComponent } from './shared/top-bar/top-bar.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UserRegistrationComponent,
-    TopBarComponent
+    TopBarComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
