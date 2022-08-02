@@ -2,23 +2,20 @@
 <div class="body">
   <div class="login">
     <form [formGroup]="loginForm" (ngSubmit)="login()">
-      <img src="../../assets/img/avatar.png" class="userImage" />
+      <img src="../../assets/img/avatar.png" class="user-image" />
       <h1></h1>
       <br />
       <p class="classlogin">Nombre de Usuario</p>
-      <mat-form-field class="inputWidth" appearance="fill">
+      <mat-form-field class="width-100" appearance="fill">
         <mat-label>Usuario</mat-label>
         <input matInput autocomplete="off" formControlName="user" />
       </mat-form-field>
       <p class="classlogin">Contrase&ntilde;a</p>
-      <mat-form-field class="inputWidth" appearance="fill">
+      <mat-form-field class="width-100" appearance="fill">
         <mat-label>Contrase&ntilde;a</mat-label>
         <input type="password" matInput formControlName="password" />
       </mat-form-field>
       <br />
-      <!-- <button mat-raised-button color="accent" class="btnStyle">
-        Crear Usuario
-      </button> -->
       <button
         type="submit"
         mat-raised-button
