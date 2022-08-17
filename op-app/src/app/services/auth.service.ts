@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, observable } from 'rxjs';
 import { LoginComponent } from '../login/login.component';
 import { stringify } from 'querystring';
-//ubicación de api en backend
+//api backend url
 const AUTH_API = 'http://localhost:8080/api/auth';
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json'})
