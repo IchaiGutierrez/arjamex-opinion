@@ -1,6 +1,5 @@
 //manages token and user info (username, roles) in session storage and clears on logout
 import { Injectable } from '@angular/core';
-import { userInfo } from 'os';
 
 const TOKEN_KEY = 'auth-token';
 const USER_KEY = 'auth-user';
