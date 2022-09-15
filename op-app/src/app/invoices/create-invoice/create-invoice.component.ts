@@ -11,5 +11,5 @@ export class CreateInvoiceComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  onFileSelected(){}
 }
