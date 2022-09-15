@@ -21,14 +21,29 @@ import { UserRegistrationComponent } from './user-registration/user-registration
 import { TopBarComponent } from './shared/top-bar/top-bar.component';
 import { UsersComponent } from './users/users.component';
 import { authInterceptorProviders } from './helpers/auth.interceptor';
-
+import { ProvidersComponent } from './providers/providers.component';
+import { CreateProviderComponent } from './providers/create-provider/create-provider.component';
+import { EditProviderComponent } from './providers/edit-provider/edit-provider.component';
+import { ViewProviderComponent } from './providers/view-provider/view-provider.component';
+import { InvoicesComponent } from './invoices/invoices.component';
+import { CreateInvoiceComponent } from './invoices/create-invoice/create-invoice.component';
+import { EditInvoiceComponent } from './invoices/edit-invoice/edit-invoice.component';
+import { ViewInvoiceComponent } from './invoices/view-invoice/view-invoice.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UserRegistrationComponent,
     TopBarComponent,
-    UsersComponent
+    UsersComponent,
+    ProvidersComponent,
+    CreateProviderComponent,
+    EditProviderComponent,
+    ViewProviderComponent,
+    InvoicesComponent,
+    CreateInvoiceComponent,
+    EditInvoiceComponent,
+    ViewInvoiceComponent
   ],
   imports: [
     BrowserModule,
