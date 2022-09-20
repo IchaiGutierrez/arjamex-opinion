@@ -29,6 +29,7 @@ import { InvoicesComponent } from './invoices/invoices.component';
 import { CreateInvoiceComponent } from './invoices/create-invoice/create-invoice.component';
 import { EditInvoiceComponent } from './invoices/edit-invoice/edit-invoice.component';
 import { ViewInvoiceComponent } from './invoices/view-invoice/view-invoice.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -55,7 +56,8 @@ import { ViewInvoiceComponent } from './invoices/view-invoice/view-invoice.compo
     MatButtonModule,
     MatToolbarModule,
     MatSelectModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [authInterceptorProviders],
   bootstrap: [AppComponent]
